@@ -1,0 +1,104 @@
+.data-label {
+  background-color: rgba(18, 35, 64, 0.8);
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: white;
+  font-family: Arial, sans-serif;
+  pointer-events: auto;
+}
+
+.label-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #81C784;
+}
+
+.label-value {
+  font-size: 14px;
+  color: #E8F5E9;
+}
+
+.three-d-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.three-d-viewer {
+  position: relative;
+
+  flex: 1;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #0a1124;
+}
+
+.machine-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8rem;
+  background-color: #1e3a8a20;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e0f2fe;
+}
+
+/* 加载状态样式 */
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 17, 36, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(30, 58, 138, 0.3);
+  border-radius: 50%;
+  border-top-color: #3b82f6;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 交互提示 */
+.interaction-hint {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  background-color: rgba(15, 26, 54, 0.7);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}

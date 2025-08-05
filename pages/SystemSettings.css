@@ -1,0 +1,201 @@
+.system-settings-container {
+  padding: 2rem;
+  background-color: #0a1124;
+  color: #ffffff;
+  min-height: 100vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background-color: #64748b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.back-btn:hover {
+  background-color: #475569;
+}
+
+.system-settings-container h1 {
+  color: #e0f2fe;
+  border-bottom: 1px solid #1e3a8a;
+  padding-bottom: 1rem;
+  margin-top: 0;
+}
+
+.settings-section {
+  background-color: #0f1a36;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.settings-section h2 {
+  color: #e0f2fe;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #1e3a8a20;
+}
+
+.setting-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.setting-item label {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.setting-item select,
+.setting-item input[type="checkbox"] {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  border: 1px solid #3b82f6;
+  border-radius: 4px;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.setting-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.save-settings-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.save-settings-btn:hover {
+  background-color: #2563eb;
+}
+
+/* 设备管理样式 */
+.device-list {
+  margin-bottom: 2rem;
+}
+
+.device-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.device-table th,
+.device-table td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #1e3a8a20;
+}
+
+.device-table th {
+  color: #e0f2fe;
+  font-weight: bold;
+}
+
+.status-badge {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.status-badge.online {
+  background-color: #10b981;
+  color: white;
+}
+
+.status-badge.offline {
+  background-color: #ef4444;
+  color: white;
+}
+
+.add-device-form {
+  background-color: #1e3a8a10;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 4px;
+  background-color: #1e3a8a;
+  color: white;
+  border: 1px solid #3b82f6;
+  font-size: 0.9rem;
+}
+
+.add-device-btn {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-device-btn:hover {
+  background-color: #059669;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.edit-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+}
