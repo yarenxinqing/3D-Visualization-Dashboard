@@ -1,4 +1,5 @@
 # 3D Visualization Dashboard
+![Uploading 截屏2025-08-05 16.12.33.png…]()
 
 这是一个基于React和Three.js的3D可视化仪表盘项目。
 
